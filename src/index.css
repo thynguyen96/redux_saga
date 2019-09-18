@@ -1,0 +1,118 @@
+/* LOADING */
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #000 transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+
+/* HEADER STYLE */
+.header .title{
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+  }
+  
+.header .logo img{
+    width: 85px;
+  }
+  
+.header .menu ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(255,255,255,0.87);
+  }
+  
+.header .active{
+    color: #fff !important;
+  }
+            
+.header .header-bottom {
+    padding: 20px 20px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  }
+
+
+/* CLIENT STYLE */
+.client {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+/* HISTORY STYLE */
+.history .card{
+    width: 97%;
+    /* box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12); */
+    border-radius: 0;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.history .card .card-header{
+    display: flex;
+}
+.history .card .bg-header{
+    background-color: white;
+    font-weight: bold;
+}
+.history .card .card-header span:last-child{
+    margin-left: auto;
+}
+.history .card table tbody tr td.request-type span{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: white;
+}
+.history .card table tbody tr td textarea{
+    background-color: white;
+    border: none;
+    font-size: 13px;
+}
+.history .card table tbody tr td.request-content{
+    width: 70%;
+}
+.history .card table tbody tr td.success-request span{
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+.history .card table tbody tr td.failure-request span{
+    background-color: orange;
+    color: white;
+    padding: 2px;
+}
+.history .card .table > tbody > tr > td {
+    vertical-align: middle;
+}
+.history .card .request-content{
+    padding: 0 10px;
+}
+
+
+
+/* CLIENT STYLE */
+
+
+/* FAVORITE STYLE */

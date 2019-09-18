@@ -1,0 +1,92 @@
+{
+  "history": [
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>LSDPU</adh:device-id>\n                   <adh:device-specific-data>\n                       <interfaces-state xmlns=\"urn:ietf:params:xml:ns:yang:ietf-interfaces\">\n    \t\t\t\t\t\t\t<interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:ptm</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:vlan-sub-interface</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:ianaift=\"urn:ietf:params:xml:ns:yang:iana-if-type\">ianaift:ethernetCsmacd</type>\n                                </interface>\n                         </interfaces-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 66,
+      "time": 1568347150000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\" xmlns:xc=\"urn:ietf:params:xml:ns:netconf:base:1.0\" message-id=\"1\">\n<get-config>\n    <source>\n        <running/>\n    </source>\n    <filter type=\"pruned-subtree\">\n        <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n            <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                <adh:device-id>${deviceID}</adh:device-id>\n                <adh:device-specific-data>\n                    <bbf-xpon:wavelength-profile xmlns:bbf-xpon=\"urn:bbf:yang:bbf-xpon\">\n                        <bbf-xpon:name>ngpon2-wave-1-bright-green</bbf-xpon:name>\n                        <bbf-xpon:downstream-channel-id>0</bbf-xpon:downstream-channel-id>\n                        <bbf-xpon:downstream-wavelength>156000</bbf-xpon:downstream-wavelength>\n                        <bbf-xpon:upstream-channel-id>1</bbf-xpon:upstream-channel-id>\n                    </bbf-xpon:wavelength-profile>\n                </adh:device-specific-data>\n            </adh:device>\n        </anv:device-manager>\n    </filter>\n</get-config>\n</rpc>",
+      "username": "adminuser",
+      "id": 63,
+      "time": 1568343573000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\" xmlns:xc=\"urn:ietf:params:xml:ns:netconf:base:1.0\" message-id=\"1\">\n<get-config>\n    <source>\n        <running/>\n    </source>\n    <filter type=\"pruned-subtree\">\n        <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n            <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                <adh:device-id>LSCF</adh:device-id>\n                <adh:device-specific-data>\n                    <bbf-xpongemtcont:tconts-config xmlns:bbf-xpongemtcont=\"urn:bbf:yang:bbf-xpongemtcont\">\n                        <bbf-xpongemtcont:tcont>\n                            <bbf-xpongemtcont:name></bbf-xpongemtcont:name>\n                        </bbf-xpongemtcont:tcont>\n                    </bbf-xpongemtcont:tconts-config>\n                </adh:device-specific-data>\n            </adh:device>\n        </anv:device-manager>\n    </filter>\n</get-config>\n</rpc>",
+      "username": "adminuser",
+      "id": 62,
+      "time": 1568343339000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>LSDPU</adh:device-id>\n                   <adh:device-specific-data>\n                       <interfaces-state xmlns=\"urn:ietf:params:xml:ns:yang:ietf-interfaces\">\n    \t\t\t\t\t\t\t<interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:ptm</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:vlan-sub-interface</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:ptm</type>\n                                </interface>\n                         </interfaces-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 60,
+      "time": 1568288444000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>${deviceID}</adh:device-id>\n                   <adh:device-specific-data>\n                       <interfaces-state xmlns=\"urn:ietf:params:xml:ns:yang:ietf-interfaces\">\n    \t\t\t\t\t\t\t<interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:ptm</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:vlan-sub-interface</type>\n                                </interface>\n                                \n                         </interfaces-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 59,
+      "time": 1568288426000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>${deviceID}</adh:device-id>\n                   <adh:device-specific-data>\n                       <interfaces-state xmlns=\"urn:ietf:params:xml:ns:yang:ietf-interfaces\">\n    \t\t\t\t\t\t\t<interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:ptm</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:bbfift=\"urn:bbf:yang:bbf-if-type\">bbfift:vlan-sub-interface</type>\n                                </interface>\n                                <interface>\n                                  <type xmlns:ianaift=\"urn:ietf:params:xml:ns:yang:iana-if-type\">ianaift:ethernetCsmacd</type>\n                                </interface>\n                         </interfaces-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 58,
+      "time": 1568288418000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n    <get>\n        <filter type=\"subtree\">\n            <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n                <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                    <adh:device-id>LSDPU</adh:device-id>\n                    <adh:device-specific-data>\n                        <forwarding-state xmlns=\"urn:bbf:yang:bbf-l2-forwarding\">\n                            <forwarders>\n                                <forwarder>\n                                    <ports>\n                                    </ports>\n                                </forwarder>\n                            </forwarders>\n                        </forwarding-state>\n                    </adh:device-specific-data>\n                </adh:device>\n            </anv:device-manager>\n        </filter>\n    </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 57,
+      "time": 1568277552000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>LSDPU</adh:device-id>\n                   <adh:device-specific-data>\n                       <bbf-l2-fwd:forwarding-state xmlns:bbf-l2-fwd=\"urn:bbf:yang:bbf-l2-forwarding\">\n                           <bbf-l2-fwd:forwarding-databases>\n                               <bbf-l2-fwd:forwarding-database>\n                                   <mac-addresses>\n                                       <mac-address>\n                                       </mac-address>\n                                   </mac-addresses>\n                                   <bbf-l2-fwd:mac-addresses/>\n                               </bbf-l2-fwd:forwarding-database>\n                           </bbf-l2-fwd:forwarding-databases>\n                       </bbf-l2-fwd:forwarding-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 55,
+      "time": 1568268416000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>${deviceID}</adh:device-id>\n                   <adh:device-specific-data>\n                       <bbf-l2-fwd:forwarding-state xmlns:bbf-l2-fwd=\"urn:bbf:yang:bbf-l2-forwarding\">\n                           <bbf-l2-fwd:forwarding-databases>\n                               <bbf-l2-fwd:forwarding-database>\n                                   <mac-addresses>\n                                       <mac-address>\n                                       </mac-address>\n                                   </mac-addresses>\n                                   <bbf-l2-fwd:mac-addresses/>\n                               </bbf-l2-fwd:forwarding-database>\n                           </bbf-l2-fwd:forwarding-databases>\n                       </bbf-l2-fwd:forwarding-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 52,
+      "time": 1568262820000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>LSDPU</adh:device-id>\n                   <adh:device-specific-data>\n                       <forwarding-state xmlns=\"urn:bbf:yang:bbf-l2-forwarding\">\n                          <forwarders>\n                            <forwarder>\n                              <ports>\n                                <port>\n\t\t\t\t\t\t\t\t\t\t<name>fwd_cc_hsi_network</name>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</port>\n                                </ports>\n                              </forwarder>\n                            </forwarders>\n                          </forwarding-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 51,
+      "time": 1568262001000
+    },
+    {
+      "requestType": "GET",
+      "error": false,
+      "netconfMsg": "<rpc xmlns=\"urn:ietf:params:xml:ns:netconf:base:1.0\">\n   <get>\n       <filter type=\"subtree\">\n           <anv:device-manager xmlns:anv=\"http://www.nokia.com/management-solutions/anv\">\n               <adh:device xmlns:adh=\"http://www.nokia.com/management-solutions/anv-device-holders\">\n                   <adh:device-id>LSDPU</adh:device-id>\n                   <adh:device-specific-data>\n                       <forwarding-state xmlns=\"urn:bbf:yang:bbf-l2-forwarding\">\n                          <forwarders>\n                            <forwarder>\n                              <ports>\n                                <port>\n\t\t\t\t\t\t\t\t\t\t<name>fwd_cc_hsi_network</name>\n\t\t\t\t\t\t\t\t\t\t<sub-interface>network_hsi</sub-interface>\n\t\t\t\t\t\t\t\t\t</port>\n                                </ports>\n                              </forwarder>\n                            </forwarders>\n                          </forwarding-state>\n                   </adh:device-specific-data>\n               </adh:device>\n           </anv:device-manager>\n       </filter>\n   </get>\n</rpc>",
+      "username": "adminuser",
+      "id": 49,
+      "time": 1568261995000
+    }
+  ]
+}
