@@ -11,7 +11,7 @@
     "codemirror": "^5.48.4",
     "font-awesome": "^4.7.0",
     "json-server": "^0.15.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react": "^16.9.0",
     "react-codemirror2": "^6.0.0",
     "react-dom": "^16.9.0",
